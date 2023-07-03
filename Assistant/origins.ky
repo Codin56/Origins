@@ -1,0 +1,16 @@
+<MyRoot>:
+
+    start: start
+
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Origins"
+            font_size: 64
+            color: 0.92, 0.45, 0
+        Button:
+            id: start
+            text: "Start"
+            font_size: 32
+            size: 100, 50
+            on_press: root.voice()
